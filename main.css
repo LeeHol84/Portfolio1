@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900'); 
+
+* {box-sizing: border-box;} 
+
+* {font-family: 'Nunito', sans-serif;}
+
+.box { 
+
+    color: white; 
+    font-size: 100px; 
+    font-family: 'Montserrat Alternates', sans-serif; 
+    text-align: center; 
+    padding:15px; 
+    width: 400px;
+} 
+   
+
+.container1 {
+
+    display:flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    background: url("images/cpBg0.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+
+.container2{
+
+    display:flex;
+    padding-right: 3%;
+    flex-direction: column;
+    text-align: right;
+    background: url("images/cpBg7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+
+}
+
+.nav{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.homebutton {
+
+    border: 5px groove rgba(51, 255, 0, 0.877);
+    height: 100px;
+    width: 100px;
+    transition: width 2s, height 2s, transform 2s;
+    border-radius: 70%;
+    background: url("images/homebut2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #fff;
+    font-weight: bolder;
+    font-size: 120%;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f09,
+    0 0 82px #f09,
+    0 0 92px #f09,
+    0 0 102px #f09,
+    0 0 151px #f09;
+    
+    
+}
+
+.homebutton:hover {
+    
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+        
+}
+
+.expHole {
+
+    border: 5px groove rgba(51, 255, 0, 0.877);
+    height: 100px;
+    width: 100px;
+    transition: width 2s, height 2s, transform 2s;
+    border-radius: 70%;
+    background: url("images/homebut6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #fff;
+    font-weight: bolder;
+    font-size: 112%;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+.expHole:hover {
+    
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+
+.intHole {
+
+    border: 5px groove rgba(51, 255, 0, 0.877);
+    height: 100px;
+    width: 100px;
+    transition: width 2s, height 2s, transform 2s;
+    border-radius: 70%;
+    background: url("images/homebut5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #fff;
+    font-weight: bolder;
+    font-size: 120%;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+.intHole:hover {
+
+    font-size: 100%;
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+
+.eduHole {
+
+    border: 5px groove rgba(51, 255, 0, 0.877);
+    height: 100px;
+    width: 100px;
+    transition: width 2s, height 2s, transform 2s;
+    border-radius: 70%;
+    background: url("images/homebut.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #fff;
+    font-weight: bolder;
+    font-size: 120%;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+.eduHole:hover {
+    
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+
+
+#eduTitle{
+
+    font-size: x-large;
+}
+
+.container3{
+    display:flex;
+    border: 5px dashed red;
+    flex-direction: column;
+    background: url("images/cpBg12.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.container4{
+    display:flex;
+    border: 5px dashed red;
+    flex-direction: column;
+    background: url("images/cpBg6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+
+
+.dogTag {
+    display: flex;
+    justify-content: space-evenly;
+    background: url("images/idcard2.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    padding-top: 1%;
+}
+
+
+
+h1 {
+    
+    border-radius: 5px;
+    font-size: 300%;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+h2 {
+    
+    border-radius: 5px;
+    font-size: 300%;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+h3 {
+   
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    
+
+}
+
+.mePic  {
+
+    padding-top: 3%;
+    padding-right: 3%;
+    border: 5px double rgb(95, 236, 95);
+    border-radius: 15px;
+}
+
+
+.links {
+    
+    padding-right: 5%;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    border: 5px; 
+    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.link1 img {
+    
+    border: 5px double rgb(95, 236, 95);
+    border-radius: 15px;
+    height: 100%
+}
+
+.link2 img {
+    
+    border: 5px double rgb(95, 236, 95);
+    border-radius: 15px;
+    height: 100%
+}
+
+.link3 img {
+    
+    border: 5px double rgb(95, 236, 95);
+    border-radius: 15px;
+    height: 100%
+}
+
+
+.buttons {
+
+    display: flex;
+}
+
+.button1 {
+    border: 5px dashed rgba(29, 224, 29, 0);
+    border-radius: 15px;
+    background: url("images/delorean1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    padding: 5px 5px 5px 5px;
+    width: 120px;
+    height: 35px; 
+    text-align: center;
+    font-size: larger;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: rgba(58, 58, 170, 0);
+    animation-name: carFly;
+    align-self: flex-end;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.button1:hover {
+    
+    font-weight: bold;
+    animation-play-state: paused;
+    display:block;
+    color: #fff;
+    font-size: 120%;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+}
+
+
+.button2 {
+
+    border: 5px dashed #1de01d00;
+    border-radius: 15px;
+    background: url("images/feCar.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    padding: 5px 5px 5px 5px;
+    width: 120px;
+    height: 35px; 
+    text-align: center;
+    font-size: larger;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: rgba(58, 58, 170, 0);
+    animation-name: carFly;
+    align-self: flex-end;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.button2:hover{
+
+    font-weight: bold;
+    animation-play-state: paused;
+    display:inline-block;
+    color: #fff;
+    font-size: 120%;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+}
+
+
+.button3 {
+
+    border: 5px dashed rgba(29, 224, 29, 0);
+    border-radius: 15px;
+    background: url("images/brCar.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover; 
+    padding: 5px 5px 5px 5px;
+    width: 120px;
+    height: 35px; 
+    text-align: center;
+    font-size: larger;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: rgba(58, 58, 170, 0);
+    animation-name: carFly;
+    align-self: flex-end;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.button3:hover{
+
+    font-weight: bold;
+    animation-play-state: paused;
+    display:inline-block;
+    color: #fff;
+    font-size: 120%;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa; 
+}
+
+
+.carFly{
+
+    animation-name: carFly;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes carFly {
+
+    0%  { transform: translateY(0); 
+    }
+
+    50% { transform: translateY(-650%);
+    }   
+
+    100% { transform: translateY(0);
+    }
+    
+}
+
+
+.middle {
+
+    display:flex;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+
+#aboutMeTitle{
+    
+    text-align: center;
+    font-weight: bolder;
+    font-size: 200%;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+#aboutMe {
+    
+    background-image: url("images/aboutme3.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 140%;
+    color: #fff;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+}
